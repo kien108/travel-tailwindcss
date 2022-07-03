@@ -1,13 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+   height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+   .wrapper {
+      max-width: 1170px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 10px;
+   }
+
+   .btn {
+      @apply rounded-[25px] bg-primary px-[32px] py-[10px] text-md text-white transition-all hover:opacity-[0.9] lg:px-[42px] lg:py-[17px];
+   }
+
+   .container-custom {
+      @apply container mx-auto pt-[85px] lg:pt-[170px];
+   }
+
+   li.menu--active {
+      @apply font-bold text-primary before:w-[12px];
+   }
+}
+
+@layer utilities {
+   :root {
+      /* bg color */
+      --bg-gradient-color: linear-gradient(to right, #fff4f4, #e5e5e5);
+      --bg-main-color: #e5e5e5;
+
+      /* text color */
+      --txt-main-color: #130606;
+      --txt-second-color: #696262;
+      --btn: #fd5056;
+      --primary-color: #fd5056;
+
+      /* typo */
+      --xxl: 40px;
+      --xl: 28px;
+      --l: 18px;
+      --md: 14px;
+      --sm: 13px;
+   }
+
+   .md {
+      --xxl: 48px;
+      --xl: 35px;
+      --l: 20px;
+      --md: 16px;
+      --sm: 13px;
+   }
+
+   .lg {
+      --xxl: 64px;
+      --xl: 44px;
+      --l: 24px;
+      --md: 18px;
+      --sm: 14px;
+   }
+
+   .theme-dark {
+      --bg-gradient-color: linear-gradient(to bottom, #0e1629, #0f172a);
+      --txt-second-color: #b4a1a1;
+      --bg-main-color: #0e1629;
+      --txt-main-color: white;
+   }
 }
