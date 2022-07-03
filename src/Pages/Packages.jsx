@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import Title from "../components/Title";
-import destination1 from "../assets/imgs/destinations/destination1.svg";
-import destination2 from "../assets/imgs/destinations/destination2.svg";
-import destination3 from "../assets/imgs/destinations/destination3.svg";
+import destination1 from "../assets/imgs/packages/package1.jpg";
+import destination2 from "../assets/imgs/packages/package2.jpg";
+import destination3 from "../assets/imgs/destinations/travel1.jpg";
+import destination4 from "../assets/imgs/packages/package3.jpg";
 import Package from "../components/Package";
 const header = {
    title: "Best trip package",
@@ -34,7 +35,7 @@ const packages = [
       price: "$150",
    },
    {
-      img: destination3,
+      img: destination4,
       title: "The red house",
       content: "The red house is the great place for anyone to visit.",
       link: "Learn more",

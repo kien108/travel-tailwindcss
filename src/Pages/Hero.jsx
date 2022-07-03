@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import watch from "../assets/imgs/hero/watch.svg";
+import watch from "../assets/imgs/hero/party.jpg";
 import { BsFillPlayFill } from "react-icons/bs";
 import hero1 from "../assets/imgs/hero/hero1.svg";
 import hero2 from "../assets/imgs/hero/hero2.svg";
@@ -39,7 +39,11 @@ const Hero = () => {
                   <button className="btn min-w-max">Plan a Trip</button>
                   <div className=" flex items-center gap-[20px] md:gap-[46px]">
                      <div className="relative h-[50px] w-[50px] cursor-pointer transition-all hover:opacity-[0.9] md:h-[80px] md:w-[80px]">
-                        <img src={watch} alt="watch-me" />
+                        <img
+                           src={watch}
+                           alt="watch-me"
+                           className="aspect-[1/1] w-full rounded-full"
+                        />
                         <span className="absolute right-0 top-[50%] flex h-[25px] w-[25px]  translate-y-[-50%] translate-x-[40%] items-center justify-center rounded-full bg-white md:h-[40px] md:w-[40px]">
                            <BsFillPlayFill
                               className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-black"

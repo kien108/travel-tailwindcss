@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import Title from "../components/Title";
 import Slider from "react-slick";
-import destination1 from "../assets/imgs/destinations/destination1.svg";
-import destination2 from "../assets/imgs/destinations/destination2.svg";
-import destination3 from "../assets/imgs/destinations/destination3.svg";
+import destination1 from "../assets/imgs/destinations/travel1.jpg";
+import destination2 from "../assets/imgs/destinations/travel2.jpg";
+import destination3 from "../assets/imgs/destinations/travel3.jpg";
 
 const header = {
    title: "Explore top destinations",

@@ -1,12 +1,12 @@
 import React from "react";
 import Title from "../components/Title";
 import Blog from "../components/Blog";
-import destination1 from "../assets/imgs/destinations/destination1.svg";
-import destination2 from "../assets/imgs/destinations/destination2.svg";
-import destination3 from "../assets/imgs/destinations/destination3.svg";
-import ava1 from "../assets/imgs/blogs/ava1.svg";
-import ava2 from "../assets/imgs/blogs/ava2.svg";
-import ava3 from "../assets/imgs/blogs/ava3.svg";
+import destination1 from "../assets/imgs/destinations/travel1.jpg";
+import destination2 from "../assets/imgs/destinations/travel2.jpg";
+import destination3 from "../assets/imgs/destinations/travel3.jpg";
+import ava1 from "../assets/imgs/blogs/people1.jpg";
+import ava2 from "../assets/imgs/blogs/people2.jpg";
+import ava3 from "../assets/imgs/blogs/people3.jpg";
 import Slider from "react-slick";
 import { useState, useEffect } from "react";
 
